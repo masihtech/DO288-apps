@@ -12,12 +12,12 @@ config_s2i
 
 echo "CYSTOMIZATION BEGAN ####### HORAYE"
 
-cp -fR /tmp/src/*.html ./ 
+cp -Rf /tmp/src/ ./
 
-DATE=(date +%F) 
-echo "we built this page at $DATE and serve to you now" >> info.html 
-echo "file INFO.HTML created*******" 
+DATE=$(date +%F) 
+echo "we built the page at this date $DATE proudly" >> masih.html 
 
+echo "END OF CUSTOMIZATION" 
 
 
 ####### CUSTOMIZATION ENDS HERE ############
