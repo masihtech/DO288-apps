@@ -15,7 +15,7 @@ echo "CYSTOMIZATION BEGAN ####### HORAYE"
 cp -Rf /tmp/src/ ./
 
 DATE=$(date +%F) 
-echo "we built the page at this date $DATE proudly" >> masih.html 
+echo "we built the page at this date $DATE proudly" >> ./masih.html 
 
 echo "END OF CUSTOMIZATION" 
 
