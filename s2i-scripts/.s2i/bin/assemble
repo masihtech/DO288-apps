@@ -10,15 +10,16 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-echo "CYSTOMIZATION BEGAN ####### HORAYE"
+echo "0000000TESTING0000000E"
 
+echo "file INFO.HTML created*******" 
 cp -Rf /tmp/src/ ./
 
 DATE=$(date +%F) 
 echo "we built the page at this date $DATE proudly" >> ./masih.html
 echo "this is the info page $DATE" >> ./info.html
 
-echo "END OF CUSTOMIZATION" 
+echo "END0000- -OF66 CUSTOMIZATION" 
 
 
 ####### CUSTOMIZATION ENDS HERE ############
